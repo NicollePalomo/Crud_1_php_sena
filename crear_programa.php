@@ -27,29 +27,27 @@
     <strong class="lgris">Ingrese los datos del programa:</strong>
     <br>
     <label class="lgris">Numero de Ficha:</label>
-    <div class="form-row">
-    <div class="form-group col-xs-2">
-    <select class="form-control" name="tipoid">
-    <option value="CC" selected>CC</option>
-    <option value="TI">TI</option>
-    <option value="RC">RC</option>
-    <option value="PEP">PEP</option>
-    </select>
     </div>
     <div class="form-group col-md-6">
-    <input class="form-control input-lg" type="number" name="numid" min="9999" max="9999999999999" value="" placeholder="IDENTIFICACIÓN" required/>
+    <input class="form-control input-lg" type="number" name="numficha" min="9999" max="9999999999999" value="" placeholder="Numero de Ficha" required/>
     </div>
     </div>
-    <label class="lgris">Nombres:</label>
-    <input class="form-control" style="text-transform: uppercase;" type="text" name="nombres" value="" placeholder="Nombres" required/>
-    <label class="lgris">Apellidos:</label>
-    <input class="form-control" style="text-transform: uppercase;" type="text" name="apellidos" value="" placeholder="Apellidos" required/>
-    <label class="lgris">Dirección:</label>
-    <input class="form-control" style="text-transform: uppercase;" type="text" name="direccion" value="" placeholder="DIRECCIÓN" required/>
-    <label class="lgris">Teléfono:</label>
-    <input class="form-control" type="number" name="telefono" min="9999" max="9999999999999" value="" placeholder="TELÉFONO" required/>
-    <label class="lgris">Ficha:</label>
-    <input class="form-control" type="number" name="ficha" min="9999" max="9999999999999" value="" placeholder="FICHA" required/>
+    <label class="lgris">Nombre del programa:</label>
+    <input class="form-control" style="text-transform: uppercase;" type="text" name="nombreprog" value="" placeholder="Nombre del programa" required/>
+    <br>
+    <label class="lgris">Tipo de programa:</label>
+    <select class="form-control" type="number" name="tipojornada">
+    <option value="1" selected>1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    </select>
     <br>
     <input class="btn btn-primary" type="submit" value="Guardar" >
     </div>

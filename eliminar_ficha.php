@@ -45,10 +45,12 @@ if ($_SERVER['REQUEST_METHOD']==='POST')
     
     if($resultado2) echo "<br> Datos borrados exitosamente";
 }
+    else{
         echo "No existen registros";
     }
     $miconexion->close();
-}?>
+}
+?>
 </div>
  </div> 
  </div> 

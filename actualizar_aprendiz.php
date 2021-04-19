@@ -13,7 +13,7 @@ $resultado=consulta($miconexion,"update aprendices set apre_nombres='{$vnombres}
 
 if($resultado->mysqli_affected_rows>0);
 {
-   echo  "Actualizacion exitosa";
+   echo  "Actualizacion Exitosa";
 }
 ?>
 
